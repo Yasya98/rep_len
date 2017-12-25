@@ -1,2 +1,16 @@
-div.zam {width:400px;height:100px;border:3px solid #00FF00;
-                background-color: #FCFFB2;color: #3D91FF}	
+div.zam {width:400px;
+		height:100px;
+		border:3px solid blue;
+        background-color: LightCyan;
+		color: grey;
+		}	
+		
+h1 {color: blue;
+}
+
+input {color: white;
+	background-color: blue;
+	border:0;
+	height:30px;
+}
+	

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.app {
+    width: 600px;
+
+    margin: auto;
+}
+
+.app .title {
+    text-align: center;
+    font-size: 32px;
+
+    color: #3498DB;
+}
+
+.app .item {
+    clear: both;
+}
+
+.app .item > * {
+    float: left;
+    margin: 8px;
+    padding: 8px;
+}
+
+.key, .value {
+    display: block;
+}
+
+.edit, .delete {
+    display: block;
+
+    border: none;
+    padding: 8px;
+}
+
+.edit {
+    background: #3498DB;
+
+    color: #ECF0F1;
+}
+
+.delete {
+    background: #E74C3C;
+
+    color: #ECF0F1;
+}
+
+.add {
+    border: none;
+
+    background:#2ECC71;
+    color: #ECF0F1;
+
+    font-size: 16px;
+    padding: 8px;
+
+    width: 100%;
+
+    margin: 8px 0px;
+}
